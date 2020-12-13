@@ -22,7 +22,7 @@ def index(request):
         fil_text = fil.fil_text
         fil_cat = fil.fil_cat
         filters[i] = ([fil_text, fil_cat])
-    template = loader.get_template('catpic/index.html')
+    template = loader.get_template('CatPic/index.html')
     try:
         catpic = catpics[randint(0, len(catpics) - 1)]
     except:
