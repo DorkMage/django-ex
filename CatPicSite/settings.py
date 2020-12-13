@@ -25,7 +25,7 @@ SECRET_KEY = 'n=o)ix5d+ji3qzedohrbg5lnb_$i+zux=^x$e0jn^(-f4nfd1&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 MEDIA_ROOT = BASE_DIR / 'CatPic/media'
 
